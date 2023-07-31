@@ -1,0 +1,77 @@
+
+body{
+    background-image: url(Images/pexels-christina-morillo-1181675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(27, 27, 50, 0.8);
+    margin: 0;
+    
+   
+  
+}
+
+.header{
+    height:100px ;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(27, 27, 50, 0.8) ;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+  
+  }
+
+  .beginning{
+    font-style: italic;
+  }
+  
+    
+  .container{
+    display: flex;
+    background-color: rgba(27, 27, 50, 0.8);
+    justify-content: center;
+
+  }
+  
+  form{
+    background-color:rgba(27, 27, 50, 0.8) ;
+    padding: 20px;
+    width: 600px;
+    margin-block-end: 1rem;
+    color:white;
+    
+    
+  }
+
+  textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+
+  .NaEmAg{
+    width: 600px;
+    height: 30px;
+    border:0
+  }
+
+  select{
+    width: 600px;
+    height: 25px;
+    border:0;
+  }
+
+  .submit{
+    width: 600px;
+    height: 25px;
+    border: 40px;
+    background-color: greenyellow;
+  }
+
+  @media screen and (max-width:800px) {
+    body{
+      display: block;
+    }
+    
+  }
